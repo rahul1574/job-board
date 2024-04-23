@@ -1,0 +1,156 @@
+body{
+    background-color:#b6ad90;
+}
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.head{
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+select{
+    height: 20px;
+    width: 80px;
+    border: none;
+    background-color: #b6ad90;
+}
+h2{
+    position: relative;
+    right: 100px;
+}
+h1{
+    position: relative;
+    left:1200px;
+    bottom: 500px;
+    color: white;
+}
+#log{
+    position: relative;
+    left: 80px;
+}
+.post{
+    background-color:black;
+    color: white;
+    height: 25px;
+    width: 130px;
+    position: relative;
+   text-align: center;
+}
+.res{
+    position: relative;
+    bottom:140px;
+    text-align: center;
+    height: 30px;
+    width:300px;
+    background-color: black;
+    color: white;
+}
+.other{
+    display: flex;
+    justify-content: space-around;
+}
+@keyframes move{
+    from{
+       transform: translate(0px);
+    }
+    to{
+        transform: translate(300px);
+    }
+}
+.slide{
+    height: 550px;
+    width:450px;
+    background-color: #c2c5aa;
+    position: relative;
+    right: 455px;
+    animation: move 1s 1s forwards;
+    display: flex;
+    flex-direction: column;
+}
+.dashboards{
+    height: 330px;
+    position: relative;
+    top:200px;
+    left:140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.res:hover{
+    background-color: green;
+}
+.res:active{
+    background-color:blue;
+}
+.back{
+    height: 550px;
+    background-image:url("empolyerpic3.webp");
+    background-size: cover;
+}
+.open{
+    font-size: 50px;
+}
+#bag{
+    font-size: 50px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:20px;
+    left:20px;
+}
+.jobs{
+    position: relative;
+    top:20px;
+    height: 1000px;
+    left:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.tittle{
+    font-size: 30px;
+    color: blue;
+    background-color: #c2c5aa;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+span{
+    font-size: 20px;
+    left:10px;
+}
+#Apply{
+    height: 20px;
+    width:250px;
+    position: relative;
+    left:1080px;
+    bottom:40px;
+    background-color: green;
+}
+.foot{
+    background-color: black;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.link{
+    display: flex;
+    height: 30px;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+}
