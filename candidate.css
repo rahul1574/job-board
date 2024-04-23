@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+#head{
+    background-color: #b6ad90;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#name{
+    position: relative;
+    right:50px;
+}
+button{
+    background-color: #656d4a;
+    height: 30px;
+    width:300px;
+}
+.page{
+    height:600px;
+    width: 500px;
+    position: relative;
+    left:540px;
+}
+.box{
+    height: 580px;
+    width:440px;
+    margin: 30px;
+    position: relative;
+    top:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.fb{
+    text-align: center;
+    background-color: rgb(21, 21, 176);
+    color:white;
+    height: 30px;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.first{
+    height:30px;
+    width:180px;
+}
+.last{
+    height:30px;
+    width:180px;
+}
+#email{
+    height:20px;
+    width:370px;
+}
+#password{
+    height:20px;
+    width:370px;
+}
+#signup{
+    height: 30px;
+    width:400px;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+.foot{
+    background-color: black;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.link{
+    display: flex;
+    height: 30px;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.foot{
+    background-color: black;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.link{
+    display: flex;
+    height: 30px;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+}
