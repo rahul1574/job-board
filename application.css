@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+#head{
+    background-color: #b6ad90;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#name{
+    position: relative;
+    right:50px;
+}
+button{
+    background-color: #656d4a;
+    height: 30px;
+    width:300px;
+}
+.box{
+    height: 1080px;
+    position: relative;
+    top:20px;
+}
+.app{
+    height: 80px;
+    width:700px;
+    background-color:rgb(3, 3, 50);
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.form{
+    height: 300px;
+    width:600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left:350px;
+    flex-wrap: wrap;
+}
+.box1{
+    height: 400px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top:10px;
+}
+.box2{
+    height: 400px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top:30px;
+}
+.box3{
+    height: 130px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box4{
+    height: 130px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input{
+    height: 30px;
+    width:280px;
+}
+.one{
+    height: 15px;
+    width: 20px;
+}
+#add{
+    height:70px;
+}
+.two{
+    height: 30px;
+    width: 580px;
+}
+.box5{
+    height: 150px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.foot{
+    background-color: black;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.link{
+    display: flex;
+    height: 30px;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+}
